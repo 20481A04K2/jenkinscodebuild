@@ -2,9 +2,9 @@ pipeline {
   agent any
   environment {
     AWS_REGION = 'ap-south-1'
-    CODEBUILD_PROJECT = 'my-codebuild-project'
-    GITHUB_REPO_URL = 'https://github.com/your/repo.git'
-    SERVICE_ROLE_ARN = 'arn:aws:iam::<account_id>:role/codebuild-service-role'
+    CODEBUILD_PROJECT = 'vamsi-codebuild-project'
+    GITHUB_REPO_URL = 'https://github.com/20481A04K2/awsfrontendecs.git'
+    SERVICE_ROLE_ARN = 'arn:aws:iam::337243655832:role/service-role/codebuild-vamsi-project-service-role'
   }
 
   stages {
